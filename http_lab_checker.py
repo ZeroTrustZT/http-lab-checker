@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Beginner HTTP Lab Checker
+HTTP Lab Checker
 
 This is a small cybersecurity learning script for private lab use.
 It checks a website several times and records:
@@ -77,7 +77,7 @@ def build_summary(results):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Beginner HTTP checker for private lab websites.")
+    parser = argparse.ArgumentParser(description="HTTP checker for private lab websites.")
     parser.add_argument("url", help="Website URL to check, for example http://192.168.1.10")
     parser.add_argument("--count", type=int, default=5, help="Number of checks to run")
     parser.add_argument("--delay", type=float, default=1.0, help="Delay between checks in seconds")
