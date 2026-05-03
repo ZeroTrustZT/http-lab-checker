@@ -1,4 +1,4 @@
-# Beginner HTTP Lab Checker
+# HTTP Lab Checker
 
 This is a simple first-year cybersecurity Python project.
 
@@ -31,25 +31,25 @@ No extra packages are required.
 Example:
 
 ```bash
-python beginner_http_lab_checker.py http://192.168.1.10
+python http_lab_checker.py http://192.168.1.10
 ```
 
 On Windows, you may need:
 
 ```bash
-py beginner_http_lab_checker.py http://192.168.1.10
+py http_lab_checker.py http://192.168.1.10
 ```
 
 Run 10 checks:
 
 ```bash
-py beginner_http_lab_checker.py http://192.168.1.10 --count 10
+py http_lab_checker.py http://192.168.1.10 --count 10
 ```
 
 Save a JSON report:
 
 ```bash
-py beginner_http_lab_checker.py http://192.168.1.10 --count 10 --report report.json
+py http_lab_checker.py http://192.168.1.10 --count 10 --report report.json
 ```
 
 ## Example Output
